@@ -4,3 +4,6 @@
 Access SpringBoot RESTFul API - in branch *server* 
 
 Access Angular Client Application - in branch *client*
+
+
+Daniel Morghati (300320190)

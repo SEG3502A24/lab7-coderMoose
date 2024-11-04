@@ -1,8 +1,9 @@
 import {Component, inject, OnInit} from '@angular/core';
 import { AbstractControl, FormArray, FormBuilder, FormControl, Validators, FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {Author, Book} from '../books/model/book';
+import {Book} from '../books/model/book';
 import {BooksService} from '../books/service/books.service';
 import { NgStyle, NgFor } from '@angular/common';
+import { Author } from '../authors/model/author';
 
 function categoryValidator(control: FormControl<string>): { [s: string]: boolean } | null {
   const validCategories = ['Kids', 'Tech', 'Cook'];

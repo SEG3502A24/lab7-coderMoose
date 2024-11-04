@@ -1,8 +1,9 @@
 import {inject, Injectable} from '@angular/core';
-import {Author, Book} from '../model/book';
+import { Book } from '../model/book';
 import { HttpClient, HttpParams } from "@angular/common/http";
 import {Observable} from "rxjs";
 import {map} from 'rxjs/operators';
+import { Author } from 'src/app/authors/model/author';
 
 const Url = 'http://localhost:8080/books-api/';
 
